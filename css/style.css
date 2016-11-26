@@ -71,6 +71,10 @@ body{
   .main-header {
     height:94%;
   }
+
+    h1 {
+        font-size: 200%;
+    }
 }
 
 .Underline__Blue {
