@@ -17,14 +17,6 @@ body{
     text-align: center;
     overflow: hidden;
 }
-a {
-  cursor: pointer;
-  color: ;
-  transition: 0.3s;
-  text-decoration: underline;
-}
-
-
 .hidden {
   visibility: hidden;
 }
@@ -75,23 +67,12 @@ a {
   background-repeat: no-repeat;
   position: fixed;
 }
-.text-white {
-  color: #fff;
-}
 
 @media only screen and (max-width: 500px) {
   .main-header {
     height:94%;
   }
 }
-.text-center {
-    text-align: center;
-}
-
-.padding-40 {
-    padding-bottom: 40px;
-}
-
 
 .Underline__Blue {
     background: transparent;

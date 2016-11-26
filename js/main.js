@@ -8,10 +8,7 @@ $(document).ready(function(){
         	});
 		}
 	});
-    $('.fa-twitter').addClass('hidden');
-    $('.fa-github').addClass('hidden');
-	$('#hi').addClass('hidden');
-	$('.intro').addClass('hidden');
+
 
     
 	var time = new Date();
