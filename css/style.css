@@ -1,82 +1,75 @@
-@font-face{ 
-  font-family: 'Gotham rounded bold';
-  src: url('fonts/gotham-rounded-bold.eot');
-  src: url('fonts/gotham-rounded-bold.eot?#iefix') format('embedded-opentype'),
-       url('fonts/gotham-rounded-bold.woff') format('woff'),
-       url('fonts/gotham-rounded-bold.ttf') format('truetype'),
-       url('fonts/gotham-rounded-bold.svg#webfont') format('svg');
+@font-face {
+    font-family: 'Gotham rounded bold';
+    src: url('fonts/gotham-rounded-bold.eot');
+    src: url('fonts/gotham-rounded-bold.eot?#iefix') format('embedded-opentype'), url('fonts/gotham-rounded-bold.woff') format('woff'), url('fonts/gotham-rounded-bold.ttf') format('truetype'), url('fonts/gotham-rounded-bold.svg#webfont') format('svg');
 }
-html, body {
-  height: 100%;
+html,
+body {
+    height: 100%;
 }
-body{
-  color: black;
-  vertical-align: baseline;
-  outline: 0;
-  font-family: 'Gotham rounded bold', Arial, sans-serif;
+body {
+    color: black;
+    vertical-align: baseline;
+    outline: 0;
+    font-family: 'Gotham rounded bold', Arial, sans-serif;
     text-align: center;
     overflow: hidden;
 }
 .hidden {
-  visibility: hidden;
+    visibility: hidden;
 }
 .main-header {
-  display: block;
-  width: 100%;
-  height: 85%;
-  min-height: 450px;
+    display: block;
+    width: 100%;
+    height: 85%;
+    min-height: 450px;
 }
 .main-header-content {
-  position: absolute;
-  -webkit-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  display: block;
-    color:#fff;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    color: #fff;
 }
 #skyin {
-  width: 100%;
-  display: block;
-  margin-bottom: -9px;
+    width: 100%;
+    display: block;
+    margin-bottom: -9px;
 }
 .intro {
     width: 100%;
     color: rgba(255, 255, 255, 0.8)
 }
-
 .padding-10 {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
-
-#background{
-  z-index:-5;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  top:0;
-  background-color: #000;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  position: fixed;
+#background {
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    background-color: #000;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: fixed;
 }
-
 @media only screen and (max-width: 500px) {
-  .main-header {
-    height:94%;
-  }
-
+    .main-header {
+        height: 94%;
+    }
     h1 {
         font-size: 200%;
     }
 }
-
 .Underline__Blue {
     background: transparent;
     display: inline-block;
@@ -84,8 +77,6 @@ body{
     height: 8px;
     box-shadow: 0 36px 0 0 #12CCCC;
 }
-
-
 .Underline__Daisy {
     background: transparent;
     display: inline-block;
@@ -93,7 +84,6 @@ body{
     height: 8px;
     box-shadow: 0 36px 0 0 #FF7091;
 }
-
 .Underline__Green {
     background: transparent;
     display: inline-block;
@@ -101,20 +91,17 @@ body{
     height: 8px;
     box-shadow: 0 36px 0 0 #30FF8A;
 }
-
-a i.fa{
-    margin-right:15px;
-    margin-left:15px;
-    transition:.4s
+a i.fa {
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: .4s
 }
-
-a i.fa-twitter{
-    color:#59ADEB
+a i.fa-twitter {
+    color: #59ADEB
 }
-a i.fa-github{
-    color:#FFF
+a i.fa-github {
+    color: #FFF
 }
-a i.fa:hover{
-    color:#FFF
+a i.fa:hover {
+    color: #FFF
 }
-
